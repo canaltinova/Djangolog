@@ -1,6 +1,6 @@
 from django.shortcuts import render_to_response
 
-def anasayfaView(request):
+def blog_index(request):
     data = {
         'title' : 'Welcome to My Blog!'
     }

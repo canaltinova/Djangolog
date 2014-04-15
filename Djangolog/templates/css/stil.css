@@ -1,0 +1,996 @@
+﻿/* -----------------------------------------------
+Tasarım:  İlberk Eral
+Adresi:   ilberkeral.blogspot.com
+----------------------------------------------- */
+html{ 
+} 
+body {
+	font: normal normal 12px 'Trebuchet MS', Trebuchet, sans-serif;
+	color: #666666;
+	background: #e5e5e5 center;
+}
+
+a:link {
+	text-decoration:none;
+	color: #059eee;
+	
+}
+a:visited {
+	text-decoration:none;
+	color: #0e89ce;
+}
+a:hover {
+	text-decoration:none;
+	color: #0e89ce;
+}
+p {
+    text-indent: 10px;
+} 
+#container {
+	width: 960px; 
+	margin: 0 auto;
+}
+
+
+
+/* Ust Kısım ----------------------------------------------- */
+#ustkisim {
+	background-image: none;
+	height:100px;
+	padding-bottom:50px;
+}
+		  
+.logo {
+	float:left;
+	width:490px;
+}
+
+.ustreklam {
+	float:left;
+	width:468px;
+	margin-top:30px;
+}
+
+/* Menu ----------------------------------------------- */
+#ustmenu {
+	background:#404040 ;
+	height:40px;	
+	clear:both;
+	border-top-right-radius: 5px ;
+	border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px ;
+	-moz-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px ;
+	-webkit-border-top-left-radius: 5px;
+    border-bottom: 2px solid #000 ;
+	position:relative; 
+	margin-top:-45px;
+}
+
+#menu {
+	clear:both;
+	width:400px;
+	font: bold 120% Arial, Helvetica, sans-serif;
+    padding: 0;
+    list-style-type: none;
+    height: 40px;
+}
+            
+#menu li {
+    float: left;
+	border-right:2px groove #585858; 
+	border-left:2px groove #585858 ;
+}
+
+#menu li.son{border-right:0;}
+
+#menu li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+    line-height: 40px;
+    color: #fff;
+}
+            
+#menu li a:hover, #menu li.active a {
+    height:40px;
+	background-color: #f5f5f5;
+    border-bottom: 2px solid #DDD;
+    color: #999;
+}
+
+#menu li.anasayfa a {
+	border-top-left-radius: 4px;
+	-moz-border-top-left-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	border-left:0;
+}
+
+#arama{
+	float:right;
+	margin-top:-34px;
+	margin-right:20px;
+	width:260px;      
+    height:30px;       
+    overflow:hidden;  
+    background:#fff; 
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+}
+
+#arama input{
+    width:200px;        
+    height:20px;        
+	margin:3px;   
+    float:left;
+    border:none;        
+    background-color:transparent;            
+    font-size:15px;
+    font-family:Calibri, Tahoma, Arial, Sans-Serif;
+    outline:none;                            
+    color:#059eee;
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+}
+
+#arama button{
+	margin:2px;
+	border:none;
+    width:40px;
+    height:26px;
+    float:right;
+    background-color:#059eee;
+    cursor:pointer;                     
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+	color:#fff;
+	font-size:15px;
+    font-family:Calibri, Tahoma, Arial, Sans-Serif;
+	line-height:20px;	
+}
+
+/* Govde ----------------------------------------------- */
+#govde{
+	width:960px; 
+	min-height:1300px; margin-bottom:50px;
+	background-color: #fff; 
+	border-bottom-right-radius: 5px ;
+	border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px ;
+	-moz-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px ;
+	-webkit-border-bottom-left-radius: 5px;
+	position: relative;
+}
+
+#sag{
+	width:310px; 
+	background-color: #fff; 
+	float:right; 
+}
+
+#ana{
+	width:650px; 
+	background-color: #fff;  
+	float:left;
+}
+
+/* Mesaj ----------------------------------------------- */
+#icerik{
+	width:630px; 
+	background-color: #fff;  
+	margin:20px;
+}
+
+
+.resim{	
+	background-color: #f0f0f0;  
+	float:left;
+	border: 1px solid #dddddd;
+	padding:5px 5px 5px 5px;
+	width:150px;
+	height:150px; 
+	position:relative;
+	margin-right:10px;
+}
+
+.resim:before{	
+	content:""; 
+	display:block; 
+	position:absolute; 
+	left:0; 
+	top:0; 
+	width:100%; 
+	height:1px; 
+    background:#fefefe;
+}
+
+h1.baslik{
+	    font-family:Calibri, Tahoma, Arial, Sans-Serif;
+
+	font-style:italic;
+	font-size:27px;
+	color:#707070;
+}
+	
+h1.baslik a:hover{
+	color:#707070;
+	border-bottom: 2px dotted #707070;
+	text-decoration: none;
+}
+
+.yazi{
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:gray;
+	line-height:20px;
+	font-size:13px;
+}
+
+.altbilgi{
+	height:20px; 
+	background-color: #f0f0f0; 
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+    border: 1px solid #dddddd;
+	margin-top:20px;
+	padding:5px;
+	position: relative;
+}
+
+.kategorilink{
+	background:transparent url(../img/kategori.png) no-repeat scroll center left;
+	margin-left:5px;
+	padding-left:20px;
+	font-size:13px;
+}
+
+.yazarlink{
+	background:transparent url(../img/yazar.png) no-repeat scroll center left;
+	margin-left:5px;
+	padding-left:20px;
+	font-size:13px;
+}
+
+.zamanlink{
+	background:transparent url(../img/tarih.png) no-repeat scroll center left;
+	margin-left:5px;
+	padding-left:20px;
+	font-size:13px;
+}
+
+.yorumlink{
+	background:transparent url(../img/yorum.png) no-repeat scroll center left;
+	margin-left:5px;
+	padding-left:20px;
+	font-size:13px;
+}
+
+.devam{
+	clear-after: both; 
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+	float:right;
+	height:30px;
+	width:125px;
+	background: #059eee  no-repeat scroll center center;
+	margin:-5px;
+	position: relative;  
+}
+
+.devam a{
+	font-family:"Calibri", Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:15px;
+	font-weight:bolder;
+	color:#ffffff;
+	text-decoration: none;
+	padding:10px;
+	line-height: 25px; 
+	position:relative; 
+	top:4%;
+}
+
+#arareklamkutu{
+	margin:20px; 
+	width:630px; 
+	height:80px; 	
+	background-color: #f0f0f0; 
+	border-radius: 5px ;
+	-moz-border-radius: 5px ;
+	-webkit-border-radius: 5px;
+}
+
+.arareklam {
+	display:inline;
+	margin:10px 5px 10px 10px;
+	float:left;
+	width:468px;
+	height:60px;
+	clear:both;
+}
+
+.arareklamver{     
+	clear-after: both; 
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+	float:right;
+	height:60px;
+	width:130px;
+	background: #ddd ;
+	margin:10px; margin-bottom:-70px; margin-left:-5px;
+	position: relative;  
+	text-align:center; 
+}	
+
+.arareklamver a{
+	font-family:"Calibri", Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:16px;
+	color:#ffffff;
+	padding:10px;
+	position:relative; 
+	top:5%; 
+	left:3%; 
+}
+
+.arareklamver a span{
+	font-family:"Calibri", Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:25px;
+	font-weight:bolder;
+	color:#ffffff;
+	text-decoration: none;
+	padding:10px;
+	line-height: 25px; 
+	margin-right:25px;
+	position:relative; 
+	top:5%; 
+}
+
+.sayfalama{
+	width:630px; 
+	margin:20px;  
+}
+
+.onceki a{ 
+	float:left;
+	background:#059eee; 
+	padding:10px 15px;  
+	margin-left:0px;
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:#fff;
+	line-height:20px;
+	font-size:13px;
+}
+.sonraki a{ 
+	float:right;
+	background:#059eee; 
+	padding:10px 15px;  
+	margin-left:5px;
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:#fff;
+	line-height:20px;
+	font-size:13px;
+}
+
+.gecerli{ 
+	float:left;
+	background:#404040; 
+	padding:10px 15px;   
+	margin-left:5px; border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:#fff;
+	line-height:20px;
+	font-size:13px;
+}
+
+	
+	a.sayfalink {
+	float:left;
+	background:#fff; 
+	padding:10px 15px; 
+	margin-left:5px;	
+	border-radius: 3px ; 
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:#059eee;
+	line-height:20px;
+	font-size:13px;
+}
+	
+a:hover.sayfalink {
+	background:#059eee;
+	padding:10px 15px;  
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:#fff;
+	line-height:20px;
+	font-size:13px;
+}
+	
+/* Sağ Kenar ----------------------------------------------- */
+
+#sosyal{margin:20px;}
+
+.facebook {
+	float:left;
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: url('../img/fb.png') bottom;
+	background-repeat:no-repeat;
+	 -moz-transition:  .5s ease-in;
+     -o-transition:  .5s ease-in,;
+     -webkit-transition:  .5s ease-in;
+     transition:  .5s ease-in;
+}
+
+.facebook:hover {
+	background: url('../img/fbsb.png') bottom;
+	background-repeat:no-repeat;
+	width: 64px;
+	height: 64px;
+}
+
+.twitter {
+	float:left;
+	margin-left:4px;
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: url('../img/twitter.png') bottom;
+	background-repeat:no-repeat;
+	 -moz-transition:  .5s ease-in;
+     -o-transition:  .5s ease-in,;
+     -webkit-transition:  .5s ease-in;
+     transition:  .5s ease-in;
+}
+
+.twitter:hover {
+	background: url('../img/twittersb.png') bottom;
+	background-repeat:no-repeat;
+	width: 64px;
+	height: 64px;
+}
+
+.quup {
+	float:left;
+	margin-left:4px;
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: url('../img/quup.png') bottom;
+	background-repeat:no-repeat;
+	 -moz-transition:  .5s ease-in;
+     -o-transition:  .5s ease-in,;
+     -webkit-transition:  .5s ease-in;
+     transition:  .5s ease-in;
+}
+
+.quup:hover {
+	background: url('../img/quupsb.png') bottom;
+	background-repeat:no-repeat;
+	width: 64px;
+	height: 64px;
+}
+
+.googleplus {
+	float:left;
+	margin-left:4px;
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: url('../img/googlep.png') bottom;
+	background-repeat:no-repeat;
+	 -moz-transition:  .5s ease-in;
+     -o-transition:  .5s ease-in,;
+     -webkit-transition:  .5s ease-in;
+     transition:  .5s ease-in;
+}
+
+.googleplus:hover {
+	background: url('../img/googlepsb.png') bottom;
+	background-repeat:no-repeat;
+	width: 64px;
+	height: 64px;
+}
+
+#sponsorlar{
+	clear-after:both; 
+	float:left;
+	background:#fff;
+	margin:0 0 0 20px;
+	padding-top:20px;
+}
+
+.sponsorreklam {
+	float:left;
+	margin:5px;
+	display: block;
+	width: 125px;
+	height: 125px;
+	background: url('../img/125x125.png') bottom;
+	background-repeat:no-repeat;
+}
+
+#widget{
+	clear:both;
+	margin:20px; 
+	padding-top:20px;
+}
+
+#widget h2{border-bottom:3px solid #059eee;}
+
+#widget h2 span{
+	float:left; 
+	padding:0 10px; 
+	background-color:#fff; 
+	margin-left:10px; 
+	margin-top:-15px; 
+	display:block; 
+	font-size:20px; 
+	color:#404040;
+}
+
+#widget ul{
+	width:100%;
+	margin-bottom:20px;
+	overflow:hidden;
+	border-top:1px dashed #f8f8f8;
+}
+
+#widget li{
+	line-height:1.5em;
+	border-bottom:1px dashed #f8f8f8;
+	float:left;
+	display:inline;
+	background-image: url('../img/nokta.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:10px;
+}
+
+a.kategoriler  {
+	color:#404040;
+	font-size:15px;
+    font-family:Calibri, Tahoma, Arial, Sans-Serif;
+}
+
+#ikili li  { width:46%;} 
+
+.popyazi{clear:both; padding-top:10px;}
+
+.popresim{	
+	background-color: #f0f0f0;  
+	float:left;
+	border: 1px solid #dddddd;
+	padding:5px 5px 5px 5px;
+	width:50px;
+	height:50px; 
+	
+}
+.popicerik{float:left;}
+
+.popicerik h1{
+	font-family:"Calibri", Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:17px;
+	color:#707070;
+	font-weight:bolder; padding-left:5px; margin-bottom:10px;
+}
+
+.popyorumsay{
+	background:transparent url(../img/yorum.png) no-repeat scroll center left;
+	margin-left:20px;
+	padding-left:20px;
+	font-size:10px; 
+}
+
+.popokunma{
+	background:transparent url(../img/okunma.png) no-repeat scroll center left;
+	margin-left:5px;
+	padding-left:20px;
+	font-size:10px;
+}
+
+/* Dibe Vuruş ----------------------------------------------- */
+#enalt{
+	margin-bottom:40px;
+    height: 300px;
+	background:#404040;	
+}
+
+#enalt h2{border-bottom:3px solid #059eee;}
+
+#enalt h2 span{
+	float:left; 
+	padding:0 10px; 
+	background-color:#404040; 
+	margin-left:10px; 
+	margin-top:-15px; 
+	display:block; 
+	font-size:20px; 
+	color:#f1f1f1;
+}
+
+#enaltkapsama{width: 960px; margin: 0 auto;}
+
+#enalt1{clear:both;float:left; width: 310px; margin-top:20px;}
+
+.sonyorum{clear:both; padding-top:10px;}
+
+.sonyorumavatar{	
+	background-color: #f0f0f0;  
+	float:left;
+	border: 1px solid #dddddd;
+	padding:3px 3px 3px 3px;
+	width:32px;
+	height:32px; 
+}
+
+.yorumyapan{float:left; }
+
+h1.yorumyapan {
+	font-family:Calibri, Arial, Helvetica, sans-serif; 
+	float:left;
+	font-style:italic;
+	font-size:15px;
+	color:#f1f1f1;
+	font-weight:bolder; 
+	margin-left:10px;  
+}
+	
+h3.yorumyapan {
+	font-family:"Calibri", Arial, Helvetica, sans-serif;
+	float:left;font-style:italic;
+	font-size:10px;
+	color:#dddddd;
+	line-height:19px;
+	font-weight:bolder; margin-left:5px;  
+}
+	
+.yorumicerik a{ 
+	float:left;  
+	margin-left:10px;
+	color:#f1f1f1;
+	font-size:12px;  
+}
+
+#enalt2{float:left; width: 310px;margin-top:20px; margin-left:15px;}
+
+.sontweet{
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:#f1f1f1;
+	font-size:13px;
+	padding-top:10px;}
+
+.sontweet p{ 
+	margin-top:15px;	
+	background:transparent url(../img/sontweet.png) no-repeat scroll top left;
+	padding-left:15px;
+}
+
+#enalt3{
+	float:right; 
+	width: 310px; 
+	margin-top:20px; 
+	margin-left:15px;    
+}
+
+.hakkindayazi{
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:gray;
+	line-height:20px;
+	font-size:13px;
+	padding-top:10px;
+}
+
+.hakkindayazi p{
+	margin-top:10px; 
+	text-align:center;
+}
+
+#enenalt{margin-top:-40px;width:100%; height:40px; bottom:0; background:#000; }
+
+.enenaltsollink a{ 
+	float:left;  
+	margin:10px;
+	color:#f1f1f1;
+	font-size:13px;  
+}
+
+
+
+.tasarim-kodlama a{ 
+	float:right;  
+	margin:10px;
+	color:#f1f1f1;
+	font-size:13px;  
+}
+
+/* -------------------------------Yazi Detay  Sayfasi------------------------------------- */
+
+/* Govde ----------------------------------------------- */
+#govdei{
+	width:960px; 
+	 margin-bottom:50px;
+	background-color: #fff; 
+	border-bottom-right-radius: 5px ;
+	border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px ;
+	-moz-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px ;
+	-webkit-border-bottom-left-radius: 5px;
+	position: relative;
+}
+
+#sagi{
+	width:310px; 
+	background-color: #fff; 
+	float:right; 
+	margin-bottom:50px;
+}
+
+#anai{
+	width:650px; 
+	background-color: #fff;  
+	float:left;
+		 margin-bottom:50px;
+
+}
+
+/* İç Sayfa ----------------------------------------------- */
+
+#yazikapsama{margin:20px; }
+
+.breadcrumb {
+	background:#f1f1f1;
+	margin:20px; 
+	padding:5px;
+	border-radius: 3px ; 
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+}
+
+
+.breadcrumb a{
+	padding:10px; 
+	color:#404040;
+	font-size:12px;
+    font-family:Calibri, Tahoma, Arial, Sans-Serif;
+}
+
+.tamyazi{
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:gray;
+	line-height:20px;
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+h1.icerikbaslik{margin-bottom:10px;}
+
+.etiketler a{
+	padding:3px;  
+	margin:5px;
+	background:#f1f1f1;
+	color:#f1f1f1;
+	font-size:10px;
+    font-family:Tahoma, Arial, Sans-Serif;}
+	
+.etiketler a:hover{
+	padding:3px;  
+	margin-top:5px;
+	background:#404040;
+	color:#ffffff;
+	font-size:10px;
+    font-family:Tahoma, Arial, Sans-Serif;
+}
+
+.tamyazi ul{
+    list-style: disc outside;
+	margin-left:30px;
+}
+
+.tamyazi h2{
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:gray;
+	line-height:20px;
+	font-size:15px;
+	font-weight:bold;
+	margin-top:10px ;
+}
+
+.tamyazi img{	
+	margin:10px;
+	background-color: #f0f0f0;  
+	border: 1px solid #dddddd;
+	padding:5px 5px 5px 5px;
+	position:relative;
+}
+
+#yazialtiyazarbilgisi{
+    height:74px; 
+	background-color: #f0f0f0; 
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+    border: 1px solid #dddddd;
+	margin-top:20px;
+	padding:5px;
+}
+
+.yazaravatar img{
+	float:left; 
+	width:60px; 
+	height:60px; 
+	margin:5px; 
+	margin-left:10px; 
+	margin-right:10px; 
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+}
+	
+.yazarkisa { 
+	margin:5px;
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:grey;
+	line-height:20px;
+	font-size:15px; 
+	font-style:italic;	
+}
+
+/* Yorum Kısmı ----------------------------------------------- */
+#yorumlar {margin-top:30px; }
+
+#yorumlar h2{border-bottom:3px solid #059eee;}
+
+#yorumlar h2 span{
+	
+	float:left; 
+	padding:0 10px; 
+	background-color:#fff; 
+	margin-left:10px; 
+	margin-top:-15px; 
+	display:block; 
+	font-size:20px; 
+	color:#404040;
+}
+
+#yorum{
+	margin-top:20px; 	margin-bottom:20px;
+
+	
+}
+
+
+.yorumavatar img{float:left; 
+	width:60px; 
+	height:60px; 
+	margin:5px; 
+	margin-left:10px; 
+	margin-right:10px; 
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+	background:#f1f1f1;
+	padding:5px;
+    border: 1px solid #dddddd;}
+
+#yorumusar{
+float:left;
+width:475px;
+background-color: #fff; 
+	margin:5px;
+	padding:10px;
+	border: 1px solid #dddddd;}
+	
+.yorumyazari a{
+font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:#404040;
+	line-height:20px;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px;
+	padding-top:15px ;
+
+}	
+	
+.yorumicerik { 
+	margin:5px;
+	font-family:Verdana,Tahoma, Arial, Helvetica, sans-serif;
+	color:grey;
+	line-height:20px;
+	font-size:15px; 
+	font-style:italic;	
+}
+
+#yorumgonder {margin-top:30px; }
+
+#yorumgonder h2{border-bottom:3px solid #059eee;}
+
+#yorumgonder h2 span{
+	float:left; 
+	padding:0 10px; 
+	background-color:#fff; 
+	margin-left:10px; 
+	margin-top:-15px; 
+	display:block; 
+	font-size:20px; 
+	color:#404040;
+}
+
+.yorumformu {
+	width:500px;
+	position:relative;
+	top:20px;
+	
+}
+
+
+
+.yorumformu label {
+	width:100%;
+	display: block;
+	padding:10px 0 10px 0;
+}
+
+.yorumformu label span {
+	display: block;
+	color:#404040;
+	font-size:15px;
+	float:left;
+	width:100px;
+	text-align:right;
+	padding:5px 10px 0 0;
+}
+
+.yorumformu .kutu {
+	padding:5px 5px;
+	width:200px;
+	background:#f1f1f1;
+	border: 1px solid #ddd;
+}
+
+.yorumformu .yorum{
+	float:left;
+	padding:7px 7px;
+	width:350px;
+	background:#f1f1f1;
+	border: 1px solid #ddd;
+	overflow:hidden;
+	height:150px;
+}
+
+.yorumformu .buton{
+	margin:0 0 10px 0;
+	padding:4px 7px;
+	background:#059eee;
+	color:#fff;
+	border:none;
+	position: relative;
+	top:10px;
+	left:382px;
+	width:100px;
+	border-radius: 3px ;
+	-moz-border-radius: 3px ;
+	-webkit-border-radius: 3px ;
+}

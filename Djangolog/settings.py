@@ -24,6 +24,11 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+#
+TEMPLATE_DIRS = (
+    '%s/Djangolog/templates' % BASE_DIR,
+)
+
 ALLOWED_HOSTS = []
 
 
