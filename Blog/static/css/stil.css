@@ -1,0 +1,123 @@
+body{font:12px "Trebuchet MS",Trebuchet,sans-serif;color:#666;background:center #e5e5e5}
+a:link{text-decoration:none;color:#059eee}
+a:visited{text-decoration:none;color:#0e89ce}
+a:hover{text-decoration:none;color:#0e89ce}
+p{text-indent:10px}
+#container{width:960px;margin:0 auto}
+#ustkisim{height:100px;padding-bottom:50px}
+.logo{float:left;width:490px}
+.ustreklam{float:left;width:468px;margin-top:30px}
+#ustmenu{background:#404040;height:40px;clear:both;border-top-right-radius:5px;border-top-left-radius:5px;-moz-border-top-right-radius:5px;-moz-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-webkit-border-top-left-radius:5px;border-bottom:2px solid #000;position:relative;margin-top:-45px}
+#menu{clear:both;width:400px;font:bold 120% Arial,Helvetica,sans-serif;padding:0;list-style-type:none;height:40px}
+#menu li{float:left;border-right:2px groove #585858;border-left:2px groove #585858}
+#menu li.son{border-right:0}
+#menu li a{text-decoration:none;display:block;padding:0 20px;line-height:40px;color:#fff}
+#menu li a:hover,#menu li.active a{height:40px;border-bottom:2px solid #DDD;color:#999;background:#f5f5f5}
+#menu li.anasayfa a{border-top-left-radius:4px;-moz-border-top-left-radius:4px;-webkit-border-top-left-radius:4px;border-left:0}
+#arama{float:right;margin-top:-34px;margin-right:20px;width:260px;height:30px;overflow:hidden;background:#fff;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+#arama input{width:200px;height:20px;margin:3px;float:left;border:none;outline:none;color:#059eee;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;font:15px Calibri,Tahoma,Arial,Sans-Serif}
+#arama button{margin:2px;border:none;width:40px;height:26px;float:right;cursor:pointer;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#fff;font:15px/20px Calibri,Tahoma,Arial,Sans-Serif;background:#059eee}
+#govde{width:960px;min-height:1300px;margin-bottom:50px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;-moz-border-bottom-right-radius:5px;-moz-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;position:relative;background:#fff}
+#sag{width:310px;float:right;background:#fff}
+#ana{width:650px;float:left;background:#fff}
+#icerik{width:630px;margin:20px;background:#fff}
+.resim{float:left;border:1px solid #ddd;padding:5px;width:150px;height:150px;position:relative;margin-right:10px;background:#f0f0f0}
+.resim:before{content:"";display:block;position:absolute;left:0;top:0;width:100%;height:1px;background:#fefefe}
+h1.baslik{color:#707070;font:italic 27px Calibri,Tahoma,Arial,Sans-Serif}
+h1.baslik a:hover{color:#707070;border-bottom:2px dotted #707070;text-decoration:none}
+.yazi{color:gray;font:13px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.altbilgi{height:20px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border:1px solid #ddd;margin-top:20px;padding:5px;position:relative;background:#f0f0f0}
+.kategorilink{background:url(../img/kategori.png) no-repeat center left;margin-left:5px;padding-left:20px;font-size:13px}
+.yazarlink{background:url(../img/yazar.png) no-repeat center left;margin-left:5px;padding-left:20px;font-size:13px}
+.zamanlink{background:url(../img/tarih.png) no-repeat center left;margin-left:5px;padding-left:20px;font-size:13px}
+.yorumlink{background:url(../img/yorum.png) no-repeat center left;margin-left:5px;padding-left:20px;font-size:13px}
+.devam{clear-after:both;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;float:right;height:30px;width:125px;background:no-repeat center center #059eee;margin:-5px;position:relative}
+.devam a{color:#fff;text-decoration:none;padding:10px;position:relative;top:4%;font:italic bolder 15px/25px "Calibri",Arial,Helvetica,sans-serif}
+#arareklamkutu{margin:20px;width:630px;height:80px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:#f0f0f0}
+.arareklam{display:inline;margin:10px 5px 10px 10px;float:left;width:468px;height:60px;clear:both}
+.arareklamver{    clear-after:both;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;float:right;height:60px;width:130px;background:#ddd;margin:10px;margin-bottom:-70px;margin-left:-5px;position:relative;text-align:center}
+.arareklamver a{color:#fff;padding:10px;position:relative;top:5%;left:3%;font:italic 16px "Calibri",Arial,Helvetica,sans-serif}
+.arareklamver a span{color:#fff;text-decoration:none;padding:10px;margin-right:25px;position:relative;top:5%;font:italic bolder 25px/25px "Calibri",Arial,Helvetica,sans-serif}
+.sayfalama{width:630px;margin:20px}
+.onceki a{float:left;background:#059eee;padding:10px 15px;margin-left:0;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#fff;font:13px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.sonraki a{float:right;background:#059eee;padding:10px 15px;margin-left:5px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#fff;font:13px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.gecerli{float:left;background:#404040;padding:10px 15px;margin-left:5px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#fff;font:13px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+a.sayfalink{float:left;background:#fff;padding:10px 15px;margin-left:5px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#059eee;font:13px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+a:hover.sayfalink{background:#059eee;padding:10px 15px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#fff;font:13px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+#sosyal{margin:20px}
+.facebook{float:left;display:block;width:64px;height:64px;background:url(../img/fb.png) no-repeat bottom;-moz-transition:.5s ease-in;-o-transition:.5s ease-in,;-webkit-transition:.5s ease-in;transition:.5s ease-in;background-repeat:repeat}
+.facebook:hover{background:url(../img/fbsb.png) no-repeat bottom;width:64px;height:64px;background-repeat:repeat}
+.twitter{float:left;margin-left:4px;display:block;width:64px;height:64px;background:url(../img/twitter.png) no-repeat bottom;-moz-transition:.5s ease-in;-o-transition:.5s ease-in,;-webkit-transition:.5s ease-in;transition:.5s ease-in;background-repeat:repeat}
+.twitter:hover{background:url(../img/twittersb.png) no-repeat bottom;width:64px;height:64px;background-repeat:repeat}
+.quup{float:left;margin-left:4px;display:block;width:64px;height:64px;background:url(../img/quup.png) no-repeat bottom;-moz-transition:.5s ease-in;-o-transition:.5s ease-in,;-webkit-transition:.5s ease-in;transition:.5s ease-in;background-repeat:repeat}
+.quup:hover{background:url(../img/quupsb.png) no-repeat bottom;width:64px;height:64px;background-repeat:repeat}
+.googleplus{float:left;margin-left:4px;display:block;width:64px;height:64px;background:url(../img/googlep.png) no-repeat bottom;-moz-transition:.5s ease-in;-o-transition:.5s ease-in,;-webkit-transition:.5s ease-in;transition:.5s ease-in;background-repeat:repeat}
+.googleplus:hover{background:url(../img/googlepsb.png) no-repeat bottom;width:64px;height:64px;background-repeat:repeat}
+#sponsorlar{clear-after:both;float:left;background:#fff;margin:0 0 0 20px;padding-top:20px}
+.sponsorreklam{float:left;margin:5px;display:block;width:125px;height:125px;background:url(../img/125x125.png) no-repeat bottom;background-repeat:repeat}
+#widget{clear:both;margin:20px;padding-top:20px}
+#widget h2{border-bottom:3px solid #059eee}
+#widget h2 span{float:left;padding:0 10px;margin-left:10px;margin-top:-15px;display:block;font-size:20px;color:#404040;background:#fff}
+#widget ul{width:100%;margin-bottom:20px;overflow:hidden;border-top:1px dashed #f8f8f8}
+#widget li{line-height:1.5em;border-bottom:1px dashed #f8f8f8;float:left;display:inline;padding-left:10px;background:url(../img/nokta.png) no-repeat left center}
+a.kategoriler{color:#404040;font:15px Calibri,Tahoma,Arial,Sans-Serif}
+#ikili li{width:46%}
+.popyazi{clear:both;padding-top:10px}
+.popresim{float:left;border:1px solid #ddd;padding:5px;width:50px;height:50px;background:#f0f0f0}
+.popicerik{float:left}
+.popicerik h1{color:#707070;padding-left:5px;margin-bottom:10px;font:italic bolder 17px "Calibri",Arial,Helvetica,sans-serif}
+.popyorumsay{background:url(../img/yorum.png) no-repeat center left;margin-left:20px;padding-left:20px;font-size:10px}
+.popokunma{background:url(../img/okunma.png) no-repeat center left;margin-left:5px;padding-left:20px;font-size:10px}
+#enalt{margin-bottom:40px;height:300px;background:#404040}
+#enalt h2{border-bottom:3px solid #059eee}
+#enalt h2 span{float:left;padding:0 10px;margin-left:10px;margin-top:-15px;display:block;font-size:20px;color:#f1f1f1;background:#404040}
+#enaltkapsama{width:960px;margin:0 auto}
+#enalt1{clear:both;float:left;width:310px;margin-top:20px}
+.sonyorum{clear:both;padding-top:10px}
+.sonyorumavatar{float:left;border:1px solid #ddd;padding:3px;width:32px;height:32px;background:#f0f0f0}
+.yorumyapan{float:left}
+h1.yorumyapan{float:left;color:#f1f1f1;margin-left:10px;font:italic bolder 15px Calibri,Arial,Helvetica,sans-serif}
+h3.yorumyapan{float:left;color:#ddd;margin-left:5px;font:italic bolder 10px/19px "Calibri",Arial,Helvetica,sans-serif}
+.yorumicerik a{float:left;margin-left:10px;color:#f1f1f1;font-size:12px}
+#enalt2{float:left;width:310px;margin-top:20px;margin-left:15px}
+.sontweet{color:#f1f1f1;padding-top:10px;font:13px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.sontweet p{margin-top:15px;background:url(../img/sontweet.png) no-repeat top left;padding-left:15px}
+#enalt3{float:right;width:310px;margin-top:20px;margin-left:15px}
+.hakkindayazi{color:gray;padding-top:10px;font:13px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.hakkindayazi p{margin-top:10px;text-align:center}
+#enenalt{margin-top:-40px;width:100%;height:40px;bottom:0;background:#000}
+.enenaltsollink a{float:left;margin:10px;color:#f1f1f1;font-size:13px}
+.tasarim-kodlama a{float:right;margin:10px;color:#f1f1f1;font-size:13px}
+#govdei{width:960px;margin-bottom:50px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;-moz-border-bottom-right-radius:5px;-moz-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;position:relative;background:#fff}
+#sagi{width:310px;float:right;margin-bottom:50px;background:#fff}
+#anai{width:650px;float:left;margin-bottom:50px;background:#fff}
+#yazikapsama{margin:20px}
+.breadcrumb{background:#f1f1f1;margin:20px;padding:5px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.breadcrumb a{padding:10px;color:#404040;font:12px Calibri,Tahoma,Arial,Sans-Serif}
+.tamyazi{color:gray;margin-bottom:10px;font:13px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+h1.icerikbaslik{margin-bottom:10px}
+.etiketler a{padding:3px;margin:5px;background:#f1f1f1;color:#f1f1f1;font:10px Tahoma,Arial,Sans-Serif}
+.etiketler a:hover{padding:3px;margin-top:5px;background:#404040;color:#fff;font:10px Tahoma,Arial,Sans-Serif}
+.tamyazi ul{list-style:disc outside;margin-left:30px}
+.tamyazi h2{color:gray;margin-top:10px;font:700 15px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.tamyazi img{margin:10px;border:1px solid #ddd;padding:5px;position:relative;background:#f0f0f0}
+#yazialtiyazarbilgisi{height:74px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border:1px solid #ddd;margin-top:20px;padding:5px;background:#f0f0f0}
+.yazaravatar img{float:left;width:60px;height:60px;margin:5px;margin-left:10px;margin-right:10px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.yazarkisa{margin:5px;color:grey;font:italic 15px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+#yorumlar{margin-top:30px}
+#yorumlar h2{border-bottom:3px solid #059eee}
+#yorumlar h2 span{float:left;padding:0 10px;margin-left:10px;margin-top:-15px;display:block;font-size:20px;color:#404040;background:#fff}
+#yorum{margin-top:20px;margin-bottom:20px}
+.yorumavatar img{float:left;width:60px;height:60px;margin:5px;margin-left:10px;margin-right:10px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;background:#f1f1f1;padding:5px;border:1px solid #ddd}
+#yorumusar{float:left;width:475px;margin:5px;padding:10px;border:1px solid #ddd;background:#fff}
+.yorumyazari a{color:#404040;padding:5px;padding-top:15px;font:700 15px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.yorumicerik{margin:5px;color:grey;font:italic 15px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+#yorumgonder{margin-top:30px}
+#yorumgonder h2{border-bottom:3px solid #059eee}
+#yorumgonder h2 span{float:left;padding:0 10px;margin-left:10px;margin-top:-15px;display:block;font-size:20px;color:#404040;background:#fff}
+.yorumformu{width:500px;position:relative;top:20px}
+.yorumformu label{width:100%;display:block;padding:10px 0}
+.yorumformu label span{display:block;color:#404040;font-size:15px;float:left;width:100px;text-align:right;padding:5px 10px 0 0}
+.yorumformu .kutu{padding:5px;width:200px;background:#f1f1f1;border:1px solid #ddd}
+.yorumformu .yorum{float:left;padding:7px;width:350px;background:#f1f1f1;border:1px solid #ddd;overflow:hidden;height:150px}
+.yorumformu .buton{margin:0 0 10px;padding:4px 7px;background:#059eee;color:#fff;border:none;position:relative;top:10px;left:382px;width:100px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}

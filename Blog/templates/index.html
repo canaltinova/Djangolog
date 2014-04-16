@@ -1,12 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="tr-TR">
   <head>
+    {% load staticfiles %}
     <meta name="author" content="Can Altınova">
     <meta name="description" content="Kişisel Blog">
     <meta name="keywords" content="blog,kişisel,asp.net,asp.net mvc,mobil,teknoloji">
     <meta http-equiv="content" content-type="text/html; charset=iso-8859-9">
-    <link type='text/css' rel='stylesheet' href='css/reset.css'>
-	<link type='text/css' rel='stylesheet' href='css/stil.css'>
+    <link type='text/css' rel='stylesheet' href='{% static 'css/reset.css' %}'>
+	<link type='text/css' rel='stylesheet' href='{% static 'css/stil.css' %}'>
 	
     <title> {{ title }} </title>
 	
@@ -16,10 +17,10 @@
     <div id="container">
         <header id="ustkisim">
 	    <div class="logo">
-    <a href="http://www.canaltinova.com"><img src="img/logo.png"></a>
+    <a href="http://www.canaltinova.com"><img src="{% static 'img/logo.png' %}"></a>
 	    </div>
         <div class="ustreklam">    
-    <a href="http://"www.canaltinova.com"><img src="img/468x60.png"></a>
+    <a href="http://"www.canaltinova.com"><img src="{% static 'img/468x60.png' %}"></a>
         </div>
 		</header>
 	<header id="ustmenu">
@@ -43,7 +44,7 @@
 	<div id="govde">
 	    <section id="ana">
 		<div id="icerik">
-		<div class="resim"><a href="#"><img src="img/resimyok.png"></a></div>
+		<div class="resim"><a href="#"><img src="{% static 'img/resimyok.png' %}"></a></div>
 		<h1 class="baslik"><a href="#">Yazı Başlığı</a></h1> <div class="yazi">
         <p>Öncelikle şunu belirtmeliyim, çok backlink değil, nitelikli backlink önemlidir. Gelelim nasıl backlink edinebileceğimize. Birçok site sahibi sitesinden kazanç elde edebilmek için belirli süreler için belirli bir miktar karşılığında sitesiniz linklerine yer verecektir. Bu en kolay yöntem.
 		 Forumlara üye olarak profilinize ve imzanıza site adresi eklemek ve forumda oldukça fazla konu açmak. </p>
@@ -57,7 +58,7 @@
 		</div>
 		</div>
 			<div id="arareklamkutu"><div class="arareklam">    
-            <a href="http://www.canaltinova.com"><img src="img/468x60.png"></a>
+            <a href="http://www.canaltinova.com"><img src="{% static 'img/468x60.png' %}"></a>
             </div><div class="arareklamver"><a href="#"><span>Sponsor</span> olmak ister misin?</a></div></div>
 
 		<div class="sayfalama">
@@ -85,8 +86,8 @@
     </div>
 		 
 	<div id="sponsorlar">
-	<a class="sponsorreklam" href="#"><img src="img/ad1.png" alt=""></img></a>
-	<a class="sponsorreklam" href="#"><img src="img/ad.gif" alt=""></img></a>
+	<a class="sponsorreklam" href="#"><img src="{% static 'img/ad1.png' %}" alt=""></img></a>
+	<a class="sponsorreklam" href="#"><img src="{% static 'img/img/ad.gif' %}" alt=""></img></a>
 	<a class="sponsorreklam" href="#"><img src="" alt=""></img></a>
 	<a class="sponsorreklam" href="#"><img src="" alt=""></img></a>
 	</div>
@@ -111,7 +112,7 @@
 	<div id="widget"><h2><span>Popüler Yazılar</span></h2>
    
     <div class="popyazi"> 
- 	<div class="popresim"><a href="#"><img src="img/resimyok.png" width="50px"></a></div>
+ 	<div class="popresim"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="50px"></a></div>
 	<div class="popicerik"><h1><a href="#">Popüler Bir Yazı</a></h1>
 	<font class="popyorumsay"><a href='#' rel='tag'>77 Yorum</a></font>
 	<font class="popokunma">1.995 Kez Okundu</font>
@@ -119,7 +120,7 @@
 	</div>
 		   
 	<div class="popyazi"> 
- 	<div class="popresim"><a href="#"><img src="img/resimyok.png" width="50px"></a></div>
+ 	<div class="popresim"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="50px"></a></div>
 	<div class="popicerik"><h1><a href="#">Popüler Bir Yazı</a></h1>
 	<font class="popyorumsay"><a href='#' rel='tag'>77 Yorum</a></font>
 	<font class="popokunma">1.995 Kez Okundu</font>
@@ -127,7 +128,7 @@
 	</div>
 		  
 	<div class="popyazi"> 
- 	<div class="popresim"><a href="#"><img src="img/resimyok.png" width="50px"></a></div>
+ 	<div class="popresim"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="50px"></a></div>
 	<div class="popicerik"><h1><a href="#">Popüler Bir Yazı</a></h1>
 	<font class="popyorumsay"><a href='#' rel='tag'>77 Yorum</a></font>
 	<font class="popokunma">1.995 Kez Okundu</font>
@@ -135,7 +136,7 @@
 	</div>
 		  
 	<div class="popyazi"> 
- 	<div class="popresim"><a href="#"><img src="img/resimyok.png" width="50px"></a></div>
+ 	<div class="popresim"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="50px"></a></div>
 	<div class="popicerik"><h1><a href="#">Popüler Bir Yazı</a></h1>
 	<font class="popyorumsay"><a href='#' rel='tag'>77 Yorum</a></font>
 	<font class="popokunma">1.995 Kez Okundu</font>
@@ -143,7 +144,7 @@
 	</div>
 		 
 	<div class="popyazi"> 
- 	<div class="popresim"><a href="#"><img src="img/resimyok.png" width="50px"></a></div>
+ 	<div class="popresim"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="50px"></a></div>
 	<div class="popicerik"><h1><a href="#">Popüler Bir Yazı</a></h1>
 	<font class="popyorumsay"><a href='#' rel='tag'>77 Yorum</a></font>
 	<font class="popokunma">1.995 Kez Okundu</font>
@@ -159,27 +160,27 @@
 	<div id="enaltkapsama">
 		<nav id="enalt1"><h2><span>Son Yorumlar</span></h2>
 		<div class="sonyorum">
-		<div class="sonyorumavatar"><a href="#"><img src="img/resimyok.png" width="32px"></a></div>
+		<div class="sonyorumavatar"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="32px"></a></div>
 		<div class="yorumyapan"><h1  class="yorumyapan">İlberk Eral</h1><h3 class="yorumyapan">(Tasarım Nasıl Olmuş?)</h3></div>
         <font class="yorumicerik"><a href="#">Son derece berbat bir tasarım hazırlanmış. </a></font>
 		</div>
 		<div class="sonyorum">
-		<div class="sonyorumavatar"><a href="#"><img src="img/resimyok.png" width="32px"></a></div>
+		<div class="sonyorumavatar"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="32px"></a></div>
 		<div class="yorumyapan"><h1  class="yorumyapan">İlberk Eral</h1><h3 class="yorumyapan">(Tasarım Nasıl Olmuş?)</h3></div>
         <font class="yorumicerik"><a href="#">Son derece berbat bir tasarım hazırlanmış. </a></font>
 		</div>
 		<div class="sonyorum">
-		<div class="sonyorumavatar"><a href="#"><img src="img/resimyok.png" width="32px"></a></div>
+		<div class="sonyorumavatar"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="32px"></a></div>
 		<div class="yorumyapan"><h1  class="yorumyapan">İlberk Eral</h1><h3 class="yorumyapan">(Tasarım Nasıl Olmuş?)</h3></div>
         <font class="yorumicerik"><a href="#">Son derece berbat bir tasarım hazırlanmış. </a></font>
 		</div>
 		<div class="sonyorum">
-		<div class="sonyorumavatar"><a href="#"><img src="img/resimyok.png" width="32px"></a></div>
+		<div class="sonyorumavatar"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="32px"></a></div>
 		<div class="yorumyapan"><h1  class="yorumyapan">İlberk Eral</h1><h3 class="yorumyapan">(Tasarım Nasıl Olmuş?)</h3></div>
         <font class="yorumicerik"><a href="#">Son derece berbat bir tasarım hazırlanmış. </a></font>
 		</div>
 		<div class="sonyorum">
-		<div class="sonyorumavatar"><a href="#"><img src="img/resimyok.png" width="32px"></a></div>
+		<div class="sonyorumavatar"><a href="#"><img src="{% static 'img/resimyok.png' %}" width="32px"></a></div>
 		<div class="yorumyapan"><h1  class="yorumyapan">İlberk Eral</h1><h3 class="yorumyapan">(Tasarım Nasıl Olmuş?)</h3></div>
         <font class="yorumicerik"><a href="#">Son derece berbat bir tasarım hazırlanmış. </a></font>
 		</div>

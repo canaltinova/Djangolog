@@ -1,0 +1,33 @@
+#govdei{width:960px;margin-bottom:50px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;-moz-border-bottom-right-radius:5px;-moz-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;position:relative;background:#fff}
+#sagi{width:310px;float:right;margin-bottom:50px;background:#fff}
+#anai{width:650px;float:left;margin-bottom:50px;background:#fff}
+#yazikapsama{margin:20px}
+.breadcrumb{background:#f1f1f1;margin:20px;padding:5px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.breadcrumb a{padding:10px;color:#404040;font:12px Calibri,Tahoma,Arial,Sans-Serif}
+.tamyazi{color:gray;margin-bottom:10px;font:13px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+h1.baslik{margin-bottom:10px}
+.etiketler a{padding:3px;margin:5px;background:#f1f1f1;color:#f1f1f1;font:10px Tahoma,Arial,Sans-Serif}
+.etiketler a:hover{padding:3px;margin-top:5px;background:#404040;color:#fff;font:10px Tahoma,Arial,Sans-Serif}
+.tamyazi ul{list-style:disc outside;margin-left:30px}
+.tamyazi h2{color:gray;margin-top:10px;font:700 15px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.tamyazi img{margin:10px;border:1px solid #ddd;padding:5px;position:relative;background:#f0f0f0}
+#yazialtiyazarbilgisi{height:74px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border:1px solid #ddd;margin-top:20px;padding:5px;background:#f0f0f0}
+.yazaravatar img{float:left;width:60px;height:60px;margin:5px;margin-left:10px;margin-right:10px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.yazarkisa{margin:5px;color:grey;font:italic 15px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+#yorumlar{margin-top:30px}
+#yorumlar h2{border-bottom:3px solid #059eee}
+#yorumlar h2 span{float:left;padding:0 10px;margin-left:10px;margin-top:-15px;display:block;font-size:20px;color:#404040;background:#fff}
+#yorum{margin-top:20px;margin-bottom:20px}
+.yorumavatar img{float:left;width:60px;height:60px;margin:5px;margin-left:10px;margin-right:10px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;background:#f1f1f1;padding:5px;border:1px solid #ddd}
+#yorumusar{float:left;width:475px;margin:5px;padding:10px;border:1px solid #ddd;background:#fff}
+.yorumyazari a{color:#404040;padding:5px;padding-top:15px;font:700 15px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.yorumicerik{margin:5px;color:grey;font:italic 15px/20px Verdana,Tahoma,Arial,Helvetica,sans-serif}
+#yorumgonder{margin-top:30px}
+#yorumgonder h2{border-bottom:3px solid #059eee}
+#yorumgonder h2 span{float:left;padding:0 10px;margin-left:10px;margin-top:-15px;display:block;font-size:20px;color:#404040;background:#fff}
+.yorumformu{width:500px;position:relative;top:20px}
+.yorumformu label{width:100%;display:block;padding:10px 0}
+.yorumformu label span{display:block;color:#404040;font-size:15px;float:left;width:100px;text-align:right;padding:5px 10px 0 0}
+.yorumformu .kutu{padding:5px;width:200px;background:#f1f1f1;border:1px solid #ddd}
+.yorumformu .yorum{float:left;padding:7px;width:350px;background:#f1f1f1;border:1px solid #ddd;overflow:hidden;height:150px}
+.yorumformu .buton{margin:0 0 10px;padding:4px 7px;background:#059eee;color:#fff;border:none;position:relative;top:10px;left:382px;width:100px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
