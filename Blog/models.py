@@ -1,21 +1,24 @@
 from django.db import models
 from django.core.validators import validate_slug
+from django.contrib.auth.models import User
 
 #defining fields for models
 
-#TODO: user is nod defined right now it should work later(in post and page)
 class Post(models.Model):
     title = models.CharField(max_length=100,verbose_name='Baslik')
     slug = models.SlugField(unique=True)
     content = models.TextField(verbose_name='Icerik')
-    #author = models.ForeignKey(User,verbose_name='Yazar')
-    date = models.DateTimeField(auto_now_add=True,verbose_name="Yayinlanma Tarihi")
-    # todo: tags = models.ManyToManyField(tag)
-    imagePath = models.TextField(verbose_name='Resim Yolu')
+    author = models.ForeignKey(User,verbose_name='Yazar')
+    created = models.DateTimeField(auto_now_add=True,verbose_name="Yayinlanma Tarihi")
+    tags = models.ManyToManyField('Blog.Tag')
+    imagePath = models.CharField(max_length=500,verbose_name='Resim Yolu')
     viewCount = models.IntegerField(default=0,verbose_name='Gorulme Sayisi')
     lastEdit = models.DateTimeField(verbose_name="Son Guncelleme")
-    isEnabled = models.NullBooleanField(blank=True, default=0, verbose_name='Enabled')
+    isEnabled = models.BooleanField(default=True, verbose_name='Enabled')
+    category = models.ForeignKey('Blog.Category')
     
+    class Meta:
+            ordering = ['-created']
     
     def __unicode__(self):
         return self.slug
@@ -37,18 +40,22 @@ class Category(models.Model):
         return self.slug
     
 class Page(models.Model):
-    titile = models.CharField(max_length=50, verbose_name='Baslik')
+    title = models.CharField(max_length=50, verbose_name='Baslik')
     slug = models.SlugField(unique=True)
     content = models.TextField(verbose_name='Icerik')
-    #author = models.ForeignKey(User,verbose_name='Yazar')
+    author = models.ForeignKey(User,verbose_name='Yazar')
     viewCount = models.IntegerField(default=0,verbose_name='Gorulme Sayisi')
     lastEdit = models.DateTimeField(verbose_name="Son Guncelleme")
-    isEnabled = models.NullBooleanField(blank=True, default=0, verbose_name='Enabled')
+    isEnabled = models.BooleanField(default=True, verbose_name='Enabled')
+    created = models.DateTimeField(auto_now_add=True,editable=False,blank=True)
     
+    #class Meta:
+    #        ordering = ['-lastEdit'] bir index degiskeni olusturup onun uzerinde bir siralama yapabilirim. simdilik boyle kalsin.
+            
     def __unicode__(self):
         return self.slug
 
-class Site(models.Model):
+class SiteSetting(models.Model):
     title =  models.CharField(max_length=50)
     value = models.TextField()
     description = models.TextField()

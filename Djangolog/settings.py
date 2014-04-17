@@ -64,7 +64,7 @@ WSGI_APPLICATION = 'Djangolog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'blogDb.sqlite3'),
     }
 }
 
@@ -79,7 +79,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False #TODO: Bu normalde True idi fakat o zaman admin paneli hata veriyor. pytz yuklu degil diye. Onu hallet.
 
 
 # Static files (CSS, JavaScript, Images)
