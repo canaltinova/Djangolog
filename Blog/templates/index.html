@@ -43,20 +43,21 @@
 	
 	<div id="govde">
 	    <section id="ana">
+		{% for post in posts %}
 		<div id="icerik">
-		<div class="resim"><a href="#"><img src="{% static 'img/resimyok.png' %}"></a></div>
-		<h1 class="baslik"><a href="#">Yazı Başlığı</a></h1> <div class="yazi">
-        <p>Öncelikle şunu belirtmeliyim, çok backlink değil, nitelikli backlink önemlidir. Gelelim nasıl backlink edinebileceğimize. Birçok site sahibi sitesinden kazanç elde edebilmek için belirli süreler için belirli bir miktar karşılığında sitesiniz linklerine yer verecektir. Bu en kolay yöntem.
-		 Forumlara üye olarak profilinize ve imzanıza site adresi eklemek ve forumda oldukça fazla konu açmak. </p>
+		<div class="resim"><a href="{{post.get_absolute_url}}"><img src="{% static 'img/resimyok.png' %}"></a></div>
+		<h1 class="baslik"><a href="#">{{post.title}}</a></h1> <div class="yazi">
+        <p>{{post.get_content_description}}</p>
 		</div>
 		<div class="altbilgi">	
-			<font class="kategorilink"><a href='#' rel='tag'>Güncel</a></font>
-			<font class="yazarlink">ilberk Eral</font>
-			<font class="zamanlink">3 Ağustos 2012 Cuma</font>
+			<font class="kategorilink"><a href='#' rel='tag'>{{post.category}}</a></font>
+			<font class="yazarlink">{{post.author}}</font>
+			<font class="zamanlink">{{post.created|date:"c"}}</font>
 			<font class="yorumlink">İlk Yorum Senden Olsun!</font>
-			<div class="devam"><a href='#' title='Backlink Nedir?'>Devamını Oku &#187;</a></div>
+			<div class="devam"><a href='{{post.get_absolute_url}}' title='{{post.title}}'>Devamını Oku &#187;</a></div>
 		</div>
 		</div>
+		{% endfor %}
 			<div id="arareklamkutu"><div class="arareklam">    
             <a href="http://www.canaltinova.com"><img src="{% static 'img/468x60.png' %}"></a>
             </div><div class="arareklamver"><a href="#"><span>Sponsor</span> olmak ister misin?</a></div></div>
